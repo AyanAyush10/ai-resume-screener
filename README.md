@@ -47,3 +47,12 @@ An AI-powered web application that screens and ranks resumes based on job descri
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+
+---
+
+## 🙌 Author
+
+**Ayan Ayush**  
+- GitHub: https://github.com/AyanAyush10  
+- LinkedIn: https://www.linkedin.com/in/ayan-ayush-7bb083265/
