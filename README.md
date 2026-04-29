@@ -1,55 +1,36 @@
-# 🤖 AI Resume Screening System
+# 🚀 AI Resume Screening System
 
-An AI-powered web application that screens and ranks resumes based on job descriptions using Natural Language Processing (NLP).
-
----
-
-## 🚀 Live Demo  
-👉 [Click Here to Use the App](https://ai-resume-screener-khlpqxczr5nkwkk37pg4y9.streamlit.app)
+A resume analysis web app that matches resumes with job descriptions using NLP and semantic similarity.
 
 ---
 
-## 📌 Features
+## 🔥 Features
 
-- 📄 Upload multiple resumes (PDF)
-- 🧠 Extract text using NLP
-- 📊 Match resumes with job descriptions
-- 🏆 Rank candidates based on similarity score
-- 🔍 Extract key skills from resumes
-- 🌐 Deployed as a live web app
-
----
-
-## 🛠️ Tech Stack
-
-- Python  
-- Streamlit  
-- Scikit-learn  
-- NLP (TF-IDF, Cosine Similarity)  
-- pdfplumber  
+- 📄 Upload resume (PDF)
+- 🧠 Semantic matching using Sentence Transformers
+- 📊 Resume vs job match score
+- 🛠 Skill extraction from resume
+- ❌ Missing skill detection
+- 💡 Resume feedback system
+- ✍️ Bullet point improvement
 
 ---
 
-## ⚙️ How It Works
+## 🧠 Tech Stack
 
-1. Resume text is extracted from PDF files  
-2. Text is cleaned and preprocessed  
-3. TF-IDF converts text into numerical vectors  
-4. Cosine similarity calculates match score  
-5. Resumes are ranked based on relevance  
+- Python
+- Streamlit
+- Sentence Transformers
+- Scikit-learn
+- PDFPlumber
 
 ---
 
-## 📂 Project Structure
-
-## ▶️ Run Locally
+## 🚀 How to Run Locally
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-
-
----
 
 ## 🙌 Author
 
